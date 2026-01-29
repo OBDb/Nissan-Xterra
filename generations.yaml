@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Nissan_Xterra"
+
 generations:
   - name: "First Generation (WD22)"
     start_year: 2000
