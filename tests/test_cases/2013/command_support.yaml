@@ -1,0 +1,19 @@
+model_year: 2013
+supported_commands_by_ecu:
+  "7E0":
+  - 7E0.7E8.221101|din=C0,dout=81:NI_ECT
+  - 7E0.7E8.221102|din=C0,dout=81:NI_VSS
+  - 7E0.7E8.221103|din=C0,dout=81:NI_VPWR
+  - 7E0.7E8.221106|din=C0,dout=81:NI_IAT
+  - 7E0.7E8.22110A|din=C0,dout=81:NI_SPARKADV_1
+  - 7E0.7E8.221110|din=C0,dout=81:NI_EVAP_PCT
+  - 7E0.7E8.221111|din=C0,dout=81:NI_FUEL_T2
+  - 7E0.7E8.221115|din=C0,dout=81:NI_EVAP_P
+  - 7E0.7E8.22111A|din=C0,dout=81:NI_O2S12
+  - 7E0.7E8.221123|din=C0,dout=81:NI_STFT1
+  - 7E0.7E8.221125|din=C0,dout=81:NI_LTFT1
+  - 7E0.7E8.22112D|din=C0,dout=81:NI_SPARKADV_CORR
+  - 7E0.7E8.22112E|din=C0,dout=81:NI_IDLE_RPM_CORR
+unsupported_commands_by_ecu:
+  "707":
+  - 707.727.220103:NISSAN_TURN_SIGNAL_LEFT,NISSAN_TURN_SIGNAL_RIGHT
