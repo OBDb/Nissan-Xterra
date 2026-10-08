@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.221313|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_COOLING_FAN_HIGH: 0
+    NISSAN_COOLING_FAN_LOW: 0
+  response: '7E8056213130008'

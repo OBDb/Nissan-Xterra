@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221124|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_AF_ADJ_B2: -7
+  response: 7E8046211245D
+- expected_values:
+    NISSAN_AF_ADJ_B2: 0
+  response: '7E80462112464'
+- expected_values:
+    NISSAN_AF_ADJ_B2: 1
+  response: '7E80462112465'
+- expected_values:
+    NISSAN_AF_ADJ_B2: 2
+  response: '7E80462112466'
