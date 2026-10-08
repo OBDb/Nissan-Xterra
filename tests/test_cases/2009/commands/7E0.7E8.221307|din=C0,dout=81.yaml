@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.221307|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_AC_COMP: 0
+    NISSAN_IDLE_CTRL_MODE: 0
+  response: '7E8056213070442'
+- expected_values:
+    NISSAN_AC_COMP: 0
+    NISSAN_IDLE_CTRL_MODE: 1
+  response: '7E8056213070642'

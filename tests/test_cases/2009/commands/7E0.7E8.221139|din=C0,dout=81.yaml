@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221139|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_CAM_DUTY_B2: 0
+  response: '7E80462113900'
