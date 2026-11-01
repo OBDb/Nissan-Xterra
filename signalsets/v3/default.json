@@ -1,13 +1,13 @@
 { "commands": [
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "110A"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "110A"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_IGN_TIM_ADVANCE", "path": "Engine", "fmt": { "len": 8, "max": 110, "min": -145, "mul": -1, "add": 110, "unit": "degrees" }, "name": "Ignition timing advance"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1110"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1110"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_EVAP_PURGE_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "percent" }, "name": "EVAP purge duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
@@ -15,7 +15,7 @@
   "signals": [
     {"id": "XTERRA_VARIABLE_VLV_TIM_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Variable valve timing oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1123"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1123"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_F_RAT_ADJ_B1", "path": "Engine", "fmt": { "len": 8, "max": 155, "min": -100, "add": -100, "unit": "percent" }, "name": "A/F ratio adj, B1"}
   ]},
@@ -27,7 +27,7 @@
   "signals": [
     {"id": "XTERRA_MANIFOLD_P_SENS_V", "path": "Battery", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Manifold pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1135"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1135"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_CAM_ADV_ANG_B1", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Camshaft advance angle, bank 1"}
   ]},
@@ -35,7 +35,7 @@
   "signals": [
     {"id": "XTERRA_CAM_ADV_ANG_B2", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Camshaft advance angle, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1138"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1138"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_CAM_VLV_DUTY_B1", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Camshaft valve duty, B1"}
   ]},
@@ -47,11 +47,11 @@
   "signals": [
     {"id": "XTERRA_REMAINING_FUEL", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Remaining fuel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1201"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1201"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_CURRENT_RPM", "path": "Movement", "fmt": { "len": 16, "max": 819187, "mul": 25, "div": 2, "unit": "rpm" }, "name": "Current engine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1204"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1204"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_MAF_VOLTS_B1", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Mass air flow volts, B1"}
   ]},
@@ -59,11 +59,11 @@
   "signals": [
     {"id": "XTERRA_MAF_V_B2", "path": "Engine", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Mass air flow sensor voltage, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1208"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1208"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_FUEL_BASE_WIDTH", "path": "Fuel", "fmt": { "len": 16, "max": 31.99, "div": 2048, "unit": "milliseconds" }, "name": "Fuel base pulse width"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1209"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1209"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010], "from": 2012 },
   "signals": [
     {"id": "XTERRA_MAF", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow"}
   ]},
@@ -75,11 +75,11 @@
   "signals": [
     {"id": "XTERRA_UP_OXYGEN_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Upstream oxygen sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "122B"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "122B"}, "freq": 30, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_CC_S", "path": "Cruise control", "fmt": { "len": 16, "max": 3686, "mul": 9, "div": 160, "nullmin": 0, "unit": "kilometersPerHour" }, "name": "Cruise control set speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1305"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1305"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2012], "from": 2014 },
   "signals": [
     {"id": "XTERRA_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
   ]},
